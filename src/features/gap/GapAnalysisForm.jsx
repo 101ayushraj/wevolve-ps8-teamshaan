@@ -23,7 +23,7 @@ export const GapAnalysisForm = ({ onSuccess }) => {
     setLoading(true);
     try {
       // Connects to your Python Backend
-      const response = await fetch('http://localhost:8000/analyze-gap', {
+      const response = await fetch('https://wevolve-backend-bsol.onrender.com/analyze-gap', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
