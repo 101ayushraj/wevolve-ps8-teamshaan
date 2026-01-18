@@ -1,0 +1,18 @@
+export const SKILL_DB =  [
+    { name: "Python", category: "Languages" }, { name: "JavaScript", category: "Languages" }, { name: "TypeScript", category: "Languages" },
+    { name: "Java", category: "Languages" }, { name: "C++", category: "Languages" }, { name: "Go (Golang)", category: "Languages" },
+    { name: "Rust", category: "Languages" }, { name: "SQL", category: "Languages" }, { name: "HTML5", category: "Frontend" },
+    { name: "CSS3", category: "Frontend" }, { name: "Swift", category: "Languages" }, { name: "Kotlin", category: "Languages" },
+    { name: "React", category: "Frontend" }, { name: "Next.js", category: "Frontend" }, { name: "Vue.js", category: "Frontend" },
+    { name: "Angular", category: "Frontend" }, { name: "Svelte", category: "Frontend" }, { name: "Tailwind CSS", category: "Frontend" },
+    { name: "Node.js", category: "Backend" }, { name: "FastAPI", category: "Backend" }, { name: "Django", category: "Backend" },
+    { name: "Flask", category: "Backend" }, { name: "Spring Boot", category: "Backend" }, { name: "Express.js", category: "Backend" },
+    { name: "NestJS", category: "Backend" }, { name: "Laravel", category: "Backend" }, { name: "ASP.NET Core", category: "Backend" },
+    { name: "TensorFlow", category: "AI/ML" }, { name: "PyTorch", category: "AI/ML" }, { name: "Scikit-learn", category: "AI/ML" },
+    { name: "Pandas", category: "Data Science" }, { name: "NumPy", category: "Data Science" }, { name: "OpenAI API", category: "AI/ML" },
+    { name: "LangChain", category: "AI/ML" }, { name: "AWS", category: "Cloud" }, { name: "Azure", category: "Cloud" },
+    { name: "Google Cloud", category: "Cloud" }, { name: "Docker", category: "DevOps" }, { name: "Kubernetes", category: "DevOps" },
+    { name: "Terraform", category: "DevOps" }, { name: "Jenkins", category: "DevOps" }, { name: "Git", category: "Tools" },
+    { name: "MongoDB", category: "Database" }, { name: "PostgreSQL", category: "Database" }, { name: "Redis", category: "Database" },
+    { name: "System Design", category: "Architecture" }, { name: "Microservices", category: "Architecture" },
+];
