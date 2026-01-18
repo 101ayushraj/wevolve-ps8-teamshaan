@@ -41,7 +41,7 @@ export const GapAnalysisForm = ({ onSuccess }) => {
       const data = await response.json();
       onSuccess(data);
     } catch (err) {
-      alert("Error: Make sure your Python backend is running on port 8000!");
+      alert("Error: Backend connection failed...");
     } finally {
       setLoading(false);
     }
